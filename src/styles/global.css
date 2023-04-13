@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Nunito:wght@300;600;800&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* ===== Cores ===== */
+  --body-color: #e4e9f7;
+  --background-color: #30323d;
+  --primary-color: #1d1e1b;
+  --primary-color-light: #f6f5ff;
+  --secondary-color: #494e5b;
+  --hover-color: #ffd54e;
+  --text-color: #fff;
+  --link-color: #72a0d6;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 0.5rem 5% 1rem;
+  color: var(--text-color);
+}
+
+::selection {
+  background-color: var(--secondary-color);
+}
+
+.container {
+  width: 90%;
+}
